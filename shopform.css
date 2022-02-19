@@ -8,6 +8,8 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
    }
 .main {
     background-color: #eeeeee;
@@ -42,8 +44,10 @@ body{
     border-radius: 80px;
     font-weight: 700;
     color: #0676e6;
+    margin-top: 30px;
 }
 .button{
+    text-align: center;
     padding: 8px;
     width: 160px;
     font-size: 12px;
@@ -62,12 +66,13 @@ body{
 .day{
     font-size: 10px;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 .text{
     text-align: center;
     color: #aabac3;
-    line-height: 1.8;
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 1px;
+    margin-bottom: 7px;
     font-size: 12px;
 }
